@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+@layer components {
+  .my-label {
+    @apply mt-2 mb-2 text-gray-800
+  }
+
+  .my-input {
+    @apply border rounded-lg p-2
+  }
+}
